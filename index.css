@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Arial";
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.chore-reminder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.incoming {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.incoming-block {
+    display: flex;
+    gap: 20px;
+}
+
